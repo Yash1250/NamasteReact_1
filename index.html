@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Assignment 1</title>
+</head>
+<body>
+    <!-- Hello World program using HTML Start -->
+    <div id="root">
+        <div id="Header"></div>
+        <div id="Footer"></div>
+        <!-- <h1>
+            Hello Akhshay Saini with html
+        </h1> -->
+    </div> 
+    <!-- Hello World program using HTML End -->
+
+    <!-- Hello World program using JavaScript Start -->
+<!-- <script>
+    let div = document.getElementById("root");
+    let h1 = document.createElement("h1");
+    h1.innerHTML = "Hello Akhasy Saini with js"
+
+    div.appendChild(h1)
+</script> -->
+<!-- Hello World program using JavaScript End-->
+
+<!-- Hello World program using React Start-->
+<script crossorigin src="https://unpkg.com/react@18/umd/react.development.js"></script>
+<script crossorigin src="https://unpkg.com/react-dom@18/umd/react-dom.development.js"></script>
+<script>
+   let h1 = React.createElement('h1' , {
+    id : "heading"
+   },"Namaste Akshay Saini From React")
+
+   let header = React.createElement("h2" , {} , "Header")
+   let footer = React.createElement("h2" , {} , "Footer")
+   let root = ReactDOM.createRoot(document.getElementById("root"));
+
+   root.render([h1,header,footer])
+</script>
+</body>
+</html>
